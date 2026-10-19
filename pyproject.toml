@@ -1,0 +1,10 @@
+[project]
+name = "online-purchase-behavior"
+version = "0.1.0"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "ipykernel",
+]
