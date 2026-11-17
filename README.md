@@ -37,3 +37,21 @@ Source: https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+inten
 
     Predicted ProductRelated_Duration = 866 − 21·Weekend[True] + 121·Informational + 48·Administrative − 4.87e+03·ExitRates
 
+## Checkpoint 1
+
+![](figures/checkpoint2.png)
+
+### Models
+
+**Jacob**
+
+    log(p / (1 − p)) = -3.47 + 0.173·ProductRelated + 1.4·Browser_3 + … where p = P(EngagedUser = 1)
+
+**Matthew**
+
+    log(p / (1 − p)) = -3.13 + 0.174·ProductRelated + 0.491·Month_Nov + … where p = P(EngagedUser = 1)
+
+**Nicholas**
+
+    log(p / (1 − p)) = -3.47 + 0.173·ProductRelated + 1.46·Browser_3 + … where p = P(EngagedUser = 1)
+
